@@ -33,6 +33,25 @@ body {
   font-size: 1.2rem;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.6);
 }
+.hero-buttons {
+  margin-top: 2rem;
+}
+
+.hero-button {
+  background-color: #006699;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 0.5rem;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.hero-button:hover {
+  background-color: #004466;
+}
 
 /* Section styling */
 section {
